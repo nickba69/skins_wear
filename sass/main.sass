@@ -1,0 +1,230 @@
+.about
+	height: 742px
+	padding-top: 68px
+	& *
+		font-size: 16px
+	&_2title
+		padding-bottom: 4px
+		font-size: 70px
+	&__content
+		&_title
+			line-height: 17px
+			font-size: 24px
+			color: $ease-title
+			padding-top: 38px
+			padding-bottom: 30px
+		&_text
+			font-weight: 300
+			line-height: 24px
+			padding-right: 40px
+			color: $dark-color
+		&_link
+			padding: 0
+			margin: 0
+			text-decoration: underline
+			color: $ease-title
+	&__bg
+		padding-right: 0
+		position: absolute
+		top: -80px
+		right: 0
+		bottom: 0
+		z-index: -10
+		&:after
+			content: ""
+			display: block
+			background: url(../img/boy-clothes-girls.png) no-repeat center
+			height: 822px
+
+//
+																									// section SHOP
+.shop
+	font-weight: 500
+	text-align: center
+	&_2title
+		text-align: left
+		line-height: 180px
+		margin: 0
+		padding: 0
+	& *
+	& .gl-arow
+		margin: 0 0 0 15px
+		display: inline
+		font-size: 0
+		vertical-align: middle
+		&--invers
+			background: url('../img/icon/strlca 2.png') no-repeat
+			&:hover
+	&__product
+		height: 470px
+		&__item
+			height: 450px
+			display: inline-block
+			position: relative
+			vertical-align: middle
+			padding-left: 15px
+			padding-right: 15px
+			margin-bottom: 15px
+			&:hover
+				box-shadow: 0px 0px 5.44px 2.56px rgba(245, 106, 63, 0.2);
+			&:after
+				content: "NEW"
+				font-size: 18px
+				background: $ease-title
+				height: 28px
+				width: 58px
+				color: $white
+				display: inline-block
+				position: absolute
+				right: 0
+				top: 0
+				line-height: 28px
+			&__pick
+				padding-top: 10px
+				&_img
+			&_name
+				color: $shop
+				font-size: 18px
+				text-transform: uppercase
+			&_price
+				font-size: 24px
+				font-weight: 500
+				line-height: 42px
+				color: $big-title
+			&_add-btn
+				position: relative
+				border: 2px solid $big-title
+				border-radius: 12px
+				margin: auto
+				height: 22px
+				width: 37px
+				cursor: pointer
+				font-size: 24px
+				color: $big-title
+				font-weight: 100
+				line-height: 14px
+				&:hover
+					border: 4px solid $big-title
+					height: 26px
+					width: 43px
+				&:active
+					top: 5px
+					height: 30px
+					width: 50px
+					line-height: 21px
+
+//
+																								// ADVANTAGE
+.advantage
+	background: url('../img/fon 4 ekrana.jpg') no-repeat center
+	background-size: cover
+	// height: 466px
+	padding: 70px 0
+	margin-top: 70px
+	& *
+		text-align: center
+		color: $white
+	&_2title
+		line-height: 52px
+		font-weight: 700
+		font-size: 70px
+		text-align: left
+		margin-top: 5px
+		margin-bottom: 70px
+		& .gl-logo--img
+			position: relative
+			height: 70px
+			bottom: 7px
+	&__content
+		&_ico
+			height: 76px
+			width: 76px
+			display: block
+			margin: auto
+		&_after-title
+			font-size: 18px
+			text-transform: uppercase
+			font-weight: 700
+			line-height: 22px
+			padding-top: 32px
+			padding-bottom: 12px
+			opacity: 72
+		&_text
+			opacity: 72
+			line-height: 22px
+			font-size: 16px
+			font-weight: 300
+			margin-bottom: 5px
+//
+														//FOOTER
+.footer
+	&__map
+		height: 673px
+		position: relative
+		&_mark
+			background: url(../img/icon/geolakaciay.png) no-repeat center
+			height: 100px
+			width: 100px
+		&__col-icons
+			margin: 73px 0
+			float: right
+	&__bottom
+		background: url('../img/fon fyter.png') no-repeat
+		background-size: cover
+		height: 246px
+		margin-bottom: 0
+	&__nav
+		position: relative
+		top: 130px
+		& *
+			display: inline-block
+			padding: 0
+			margin: 0
+			font-size: 0
+			opacity: .8
+		&__info
+			position: relative
+			top: 25px
+			width: 16.6%
+			color: $white
+			font-size: 14px
+			font-weight: 100
+		&__menu
+			width: 58.33333333%
+			font-weight: 700
+			&__item
+				vertical-align: middle
+				&_link
+					color: $white
+					font-size: 11px
+					padding: 17px
+					text-transform: uppercase
+					&:hover
+						color: $ease-title
+		&__left
+			position: relative
+			top: 28px
+			display: inline-block
+			padding: 0
+			margin: 0
+			width: 16.66666667%
+			font-size: 0
+			&_phone
+				color: $white
+				font-size: 17px
+				font-weight: 500
+				float: right
+			&_time
+				opacity: 0.5
+				color: $white
+				font-size: 11px
+				font-weight: 100
+				float: right
+.gl-go-up
+	opacity: 1
+	color: $white
+	font-size: 14px
+	font-weight: 700
+	&:hover
+		color: $ease-title
+

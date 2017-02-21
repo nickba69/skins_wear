@@ -1,0 +1,31 @@
+@media screen and (min-width: 1200px)
+    .gl-sundwich--fx
+        display: none
+
+.gl-sundwich--fx
+    width: 40px
+    z-index: 1000
+    cursor: pointer
+    position: absolute
+    left: 50%
+    margin-top: 20px
+    & div
+        border-radius: 9px
+        float: left
+        margin: 5px 0
+        padding: 2px 20px
+        background: #fff
+        display: inline
+
+@media screen and (max-width: 1200px)
+    .header__nav__menu
+        position: fixed
+        right: -100%
+        z-index: 105
+    .gl-sundwich--fx--on
+        .gl-sundwich--fx--one
+            background: black
+        .gl-sundwich--fx--two
+            background: black
+        .gl-sundwich--fx--three
+            background: black

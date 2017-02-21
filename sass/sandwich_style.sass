@@ -1,0 +1,43 @@
+.gl-sundwich_left-box
+	opacity: 0
+@media screen and (max-width: 1200px)
+	.header__nav__menu,
+		opacity: 0
+		width: 30vw
+		height: 100%
+		background: rgba(0,0,0,.7)
+	.gl-sundwich--fx--on
+		opacity: 1
+		position: fixed
+		right: 0
+		z-index: 105
+		& .header__nav__menu_item
+			display: block
+			&:hover
+				border-bottom: 2px solid #fff
+	.gl-sundwich--fx--on + .gl-sundwich_left-box
+		transition: 2s ease
+		z-index: 100
+		opacity: 1
+		position: fixed
+		left: 0
+		height: 100%
+		width: 70%
+		background: rgba(255,255,255,.9)
+
+@media screen and (max-width: 900px)
+    .header__nav__menu,
+        width: 40vw
+    .gl-sundwich--fx--on + .gl-sundwich_left-box
+        width: 60vw
+
+@media screen and (max-width: 600px)
+    .header__nav__menu,
+        width: 50vw
+        height: 100vh
+        a
+            padding: 10px
+    .gl-sundwich--fx--on + .gl-sundwich_left-box
+        width: 50vw
+    .gl-sundwich--fx
+        left: 30%
